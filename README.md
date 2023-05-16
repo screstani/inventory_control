@@ -4,7 +4,7 @@
 
 ### Basics
 - [x] List of products, each one with ID;
-- [ ] Create interface to the products list;
+- [x] Create interface to the products list;
 - [ ] Add item to list of products;
 - [ ] Create interface to add item to list;
 - [ ] Remove itens of list of products;

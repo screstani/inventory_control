@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.control {
+    width: 80vw;
+    margin: 10vh auto 0;
+    background: #ccc;
+    border: 2px solid #333;
+    padding: 1em 2em;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+}
+.title {
+    margin: 0;
+    flex-grow: 1;
+}
+.add {
+
+}
+.search {
+
+}
+
+.content {
+    width: 80vw;
+    margin: 0 auto 10vh;
+    background: #eee;
+    border: 2px solid #333;
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+    border-collapse: collapse;
+}
+
+.content th, .content td {
+    text-align: left;
+    padding: 5px 10px 5px 5px;
+}
+
+.topic {
+    color: #eee;
+}
+
+.topic th{
+    background: #333;
+}
+
+.content tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.content tr:nth-child(even) {
+    background-color: #ccc;
+}

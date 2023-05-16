@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Inventory</title>
 </head>
 <body>
-    <header>
-        <h1>Inventory</h1>
-        <button>+</button>
-        <input type="search">
+    <header class="control">
+        <h1 class="title">Inventory</h1>
+        <button class="add">+</button>
+        <input class="search" type="search">
     </header>
-    <table>
-        <thead>
+    <table class="content">
+        <thead class="topic">
             <tr>
                 <th>ID</th>
                 <th>Name</th>
@@ -27,7 +28,20 @@
             <td>Gamer Keyboard</td>
             <td>NETGEAR</td>
             <td>002</td>
-            <td></td>
+            <td>
+                <button>Edit</button>
+                <button>Remove</button>
+            </td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Gamer Keyboard</td>
+            <td>NETGEAR</td>
+            <td>002</td>
+            <td>
+                <button>Edit</button>
+                <button>Remove</button>
+            </td>
         </tr>
     </table>
 </body>
