@@ -1,0 +1,45 @@
+{
+    "id": "0001",
+    "name": "Gamer Keyboard",
+    "brand": "NETGEAR"
+},
+{
+    "id": "0002",
+    "name": "Mouse Gamer",
+    "brand": "GE"
+},
+{
+    "id": "0003",
+    "name": "4K Monitor",
+    "brand": "Samsung"
+},
+{
+    "id": "0004",
+    "name": "Pen drive",
+    "brand": "Scan"
+},
+{
+    "id": "0005",
+    "name": "Wireless Earbuds",
+    "brand": "Apple"
+    },
+    {
+    "id": "0006",
+    "name": "Smartwatch",
+    "brand": "Fitbit"
+    },
+    {
+    "id": "0007",
+    "name": "Portable Bluetooth Speaker",
+    "brand": "JBL"
+    },
+    {
+    "id": "0008",
+    "name": "Wireless Router",
+    "brand": "NETGEAR"
+    },
+    {
+        "id": "0009",
+        "name": "Wireless mouse",
+        "brand": "Apple"
+    }

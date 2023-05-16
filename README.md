@@ -3,7 +3,7 @@
 ## Features
 
 ### Basics
-- [ ] List of products, each one with ID;
+- [x] List of products, each one with ID;
 - [ ] Create interface to the products list;
 - [ ] Add item to list of products;
 - [ ] Create interface to add item to list;
