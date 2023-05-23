@@ -5,6 +5,8 @@
 ### Basics
 - [x] List of products, each one with ID;
 - [x] Create interface to the products list;
+- [ ] Get the file with the products list;
+- [ ] Connect product list with API;
 - [ ] Add item to list of products;
 - [ ] Create interface to add item to list;
 - [ ] Remove itens of list of products;
