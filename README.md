@@ -12,7 +12,7 @@ For the front-end of this project to run, it needs a product data API. To genera
 - [x] Create interface to the products list;
 - [x] Read the products list file;
 - [x] Conect products list with an local API;
-- [ ] Add item to list of products;
+- [x] Add item to list of products;
 - [ ] Create interface to add item to list;
 - [ ] Remove itens of list of products;
 - [ ] Create interface to remove item of the list;
