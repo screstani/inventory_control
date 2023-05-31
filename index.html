@@ -10,24 +10,32 @@
 <body>
     <header class="control">
         <h1 class="title">Inventory</h1>
-        <button class="add">+</button>
+        <button class="add" id="add-product">+</button>
         <input class="search" type="search">
     </header>
-    <table class="content">
-        <thead class="topic">
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Brand</th>
-                <th>Qtt</th>
-                <th>Options</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            </tr>
-        </tbody>
-    </table>
+    <main>
+        <form class="cadastro" id="cadastro">
+            <input type="text" class="cadastro-campo" name="nome" placeholder="Name">
+            <input type="text" class="cadastro-campo"name="marca" placeholder="Brand">
+            <input type="number"class="cadastro-campo" name="qtd" placeholder="Quantity">
+            <input type="submit" class="cadastro-envio"id="submit" value="Add">
+        </form>
+        <table class="content">
+            <thead class="topic">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Brand</th>
+                    <th>Qtt</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 </body>
 <script src="/js/main.js"></script>
 </html>

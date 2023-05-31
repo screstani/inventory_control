@@ -4,6 +4,12 @@
 
 body {
     margin: 0;
+    padding-top: 10vh;
+}
+
+main, .control {
+    width: 80vw;
+    margin: 0 auto 10vh;
 }
 
 .control {
@@ -19,12 +25,6 @@ body {
     margin: 0;
     flex-grow: 1;
 }
-.add {
-
-}
-.search {
-
-}
 
 .content {
     width: 80vw;
@@ -34,6 +34,7 @@ body {
     border-top: none;
     border-radius: 0 0 15px 15px;
     border-collapse: collapse;
+    width: 100%;;
 }
 
 .content th, .content td {
@@ -55,4 +56,15 @@ body {
 
 .content tr:nth-child(even) {
     background-color: #ccc;
+}
+
+/* Form de cadastro */
+.cadastro {
+    padding: 5px;
+    border: 2px solid #000;
+    display: none;
+}
+
+.cadastro-ativo {
+    display: block;
 }
