@@ -14,8 +14,8 @@ For the front-end of this project to run, it needs a product data API. To genera
 - [x] Conect products list with an local API;
 - [x] Add item to list of products;
 - [x] Create interface to add item to list;
-- [ ] Remove itens of list of products;
-- [ ] Create interface to remove item of the list;
+- [x] Remove itens of list of products;
+- [x] Create interface to remove item of the list;
 - [ ] Add quantity of itens to each product on the list;
 - [ ] Create interface to add quantity of itens to each product on the list;
 - [ ] Change quantity of itens;
